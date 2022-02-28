@@ -1,0 +1,7 @@
+break>"dblank.txt"
+
+
+@echo select vdisk file=D:\VisualCodePortable\VisualCodePortable.vhd>> dblank.txt
+@echo detach vdisk>> dblank.txt
+
+diskpart /s dblank.txt
